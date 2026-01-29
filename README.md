@@ -37,3 +37,25 @@ curl http://192.168.64.3:5000/health
 Successful communication between the two virtual machines confirms correct network configuration and microservice deployment.
 
 backend/app.py
+
+---
+
+## Step D2: Paste Code
+
+Paste this code:
+
+```python
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello from Backend VM"
+
+@app.route("/health")
+def health():
+    return jsonify(status="healthy")
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
