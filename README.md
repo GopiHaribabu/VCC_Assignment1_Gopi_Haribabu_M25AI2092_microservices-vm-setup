@@ -32,7 +32,7 @@ python3 app.py
     curl http://192.168.64.3:5000
     curl http://192.168.64.3:5000/health
 
-**Outcome**
+## Outcome
 Successful communication between the two virtual machines confirms correct network configuration and microservice deployment.
 
 backend/app.py
