@@ -26,9 +26,8 @@ The service runs on port 5000 and listens on all network interfaces.
 ## How to Run
 
 ### On VM-1 (Backend)
-```bash
 python3 app.py
-
+---
 ### On VM-2 (Client)
 curl http://192.168.64.3:5000
 curl http://192.168.64.3:5000/health
@@ -37,7 +36,6 @@ curl http://192.168.64.3:5000/health
 Successful communication between the two virtual machines confirms correct network configuration and microservice deployment.
 
 backend/app.py
-
 ---
 
 ## Step D2: Paste Code
