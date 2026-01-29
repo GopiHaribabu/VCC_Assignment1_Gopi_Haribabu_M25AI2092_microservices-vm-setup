@@ -43,7 +43,7 @@ Successful communication between the two virtual machines confirms correct netwo
 3. Leave message as default
 4. Click **Commit**
 
-✅ README is now saved
+README is now saved
 
 ---
 
